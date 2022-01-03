@@ -1,9 +1,9 @@
 ---
-title: News
-permalink: /news/
+title: Announcements
+permalink: /announcements/
 ---
 
-# News
+# Announcements
 
 <p>Subscribe with <a href="{{ site.baseurl }}/feed.xml">RSS</a> to keep up with the latest news.
 For site changes, see the <a href="https://github.com/{{ site.github_user }}/{{ site.github_repo }}/blob/master/CHANGELOG.md">changelog</a> kept with the code base.</p>
@@ -23,4 +23,4 @@ For site changes, see the <a href="https://github.com/{{ site.github_user }}/{{ 
    <hr>
 {% endfor %}
 
-Want to see more? See the <a href="{{ site.baseurl }}/archive/">News Archive</a>.
+{% include alert.html type="info" title="Previous announcements" content="Previous announcements are available in the <a href="{{ site.baseurl }}/archive/">Archive</a>." %} 

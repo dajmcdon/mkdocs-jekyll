@@ -1,45 +1,20 @@
 # MkDocs Jekyll Theme
 
-[![CircleCI](https://circleci.com/gh/vsoch/mkdocs-jekyll/tree/master.svg?style=svg)](https://circleci.com/gh/vsoch/mkdocs-jekyll/tree/master)
 
-![https://raw.githubusercontent.com/vsoch/mkdocs-jekyll/master/assets/img/mkdocs-jekyll.png](https://raw.githubusercontent.com/vsoch/mkdocs-jekyll/master/assets/img/mkdocs-jekyll.png)
+This is a 
+for a mkdocs jekyll theme, based on [vsoch/mkdocs-jekyll](https://vsoch.github.com/mkdocs-jekyll/):
 
-This is a [starter template](https://vsoch.github.com/mkdocs-jekyll/) for a mkdocs jekyll theme, based on these two
-previous arts:
-
- - [alexcarpenter/material-jekyll-theme](http://alexcarpenter.github.io/material-jekyll-theme)
- - [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
-
+ 
 ## Usage
 
-### 1. Get the code
+### 1. Clone the repo or create a branch
 
-You can clone the repository right to where you want to host the docs:
+Use a clone of this template to set up the main site for the course. If you will not be using a project, you can skip this step. 
 
-```bash
-git clone https://github.com/vsoch/mkdocs-jekyll.git docs
-cd docs
-```
 
 ### 2. Customize
 
-To edit configuration values, customize the [_config.yml](https://github.com/vsoch/mkdocs-jekyll/blob/master/_config.yml).
-To add pages, write them into the [pages](https://github.com/vsoch/mkdocs-jekyll/tree/master/pages) folder. 
-You define urls based on the `permalink` attribute in your pages,
-and then add them to the navigation by adding to the content of [_data/toc.myl](https://github.com/vsoch/mkdocs-jekyll/blob/master/_data/toc.yml).
+Edit `_config.yml` as needed. If you plan to have project pages (say with lecture slides), be sure to use absolute paths in the navigation.
 
-### 3. Options
+### 3. Use the theme
 
-Most of the configuration values in the [_config.yml](https://github.com/vsoch/mkdocs-jekyll/blob/master/_config.yml) are self explanatory,
-and for more details, see the [about page](https://vsoch.github.io/mkdocs-jekyll/about/)
-rendered on the site.
-
-### 4. Serve
-
-Depending on how you installed jekyll:
-
-```bash
-jekyll serve
-# or
-bundle exec jekyll serve
-```

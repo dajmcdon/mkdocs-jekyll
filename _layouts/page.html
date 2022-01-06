@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
-<div class="md-content"> 
+
+<div class="md-content">
     <article class="md-content__inner md-typeset">
-    {{ content }}
-    {% include toc.html %}
+        <h1 style="margin-bottom:0px">{% if page.icon %}<i class="{{ page.icon }}"></i>{% endif %}{{ page.title }}</h1>
+        {% if page.badges %}{% for badge in page.badges %}<span class="badge badge-{{ badge.type }}">{{ badge.tag }}</span>{% endfor %}{% endif %}
+
+        {{ content }}
+        {% include toc.html %}
     </article>
-</div>      
+</div>
+
